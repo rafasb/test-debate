@@ -19,6 +19,8 @@ During debate execution:
 - Individual responses: `agente-a-ronda-[N].md` and `agente-b-ronda-[N].md` (N=1-5)
 - Final consensus: `consenso-final.md` (created after round 5)
 
+> **Rule**: All generated files (`agente-a-ronda-[N].md`, `agente-b-ronda-[N].md`, `consenso-final.md`) **must** be saved inside the debate's own directory (`DEBATE-[NN]/`). No debate files may be written to the workspace root.
+
 ## Key Commands
 
 - Start debate: `/debate`
